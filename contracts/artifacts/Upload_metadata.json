@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_user",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_ipfsHash",
+						"type": "string"
+					}
+				],
+				"name": "uploadFile",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_user",
+						"type": "address"
+					}
+				],
+				"name": "viewFiles",
+				"outputs": [
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/UploadFile.sol": "Upload"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/UploadFile.sol": {
+			"keccak256": "0xcb4e40582cc8f3f4027ceaa3bf6aac38509a62baad714e54fdb821b5cf2ffdef",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://e4f4df3ab4496f4286e8d4f7dea464e4950a884a9f9bca4f962b20b9f7e058f6",
+				"dweb:/ipfs/QmfEMbeYCGVEZW1bqLKJ2C2RJ63JvMqFkPpt8zk2URgHJ9"
+			]
+		}
+	},
+	"version": 1
+}
